@@ -215,7 +215,7 @@ Create a function **calculateTotalPrice** that accepts an array of product objec
 - `name` (string)
 - `price` (number)
 - `quantity` (number)
-- `discount?` (optional number, percentage between 0-100)
+- **discount?**: optional number from **0–100**, representing a percentage discount
 
 The function should return the **total price** of all products in the array, taking into account the discount for each product (if provided).
 If the array is empty, return `0`.
@@ -242,7 +242,7 @@ console.log(calculateTotalPrice(products));
 ### Sample Output:
 
 ```ts
-145;
+127.5;
 ```
 
 ## 🎯 Interview Questions - Blog Task
